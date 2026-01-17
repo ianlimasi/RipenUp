@@ -1,0 +1,139 @@
+.sv-main-box {
+    width: 90%;
+    height: 40%;
+
+    border: 2px solid red;
+
+    position: absolute;
+    top: 3%;
+    /* right: 5%; */
+
+    overflow: hidden;
+}
+
+.sv-box-inner {
+    width: 100%;
+    height: 100%;
+
+    border: 2px solid blue;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sv-box {
+    width: 11%;
+    height: 17%;
+
+    border: 2px solid red;
+
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.sv-btn {
+    /* position: absolute;
+    top: 3%;
+    right: 5%; */
+
+    width: 100%;
+    height: 100%;
+
+    /* z-index: 20; */
+
+    background-color: orange;
+    border: 2px solid black;
+    transition: all 0.2s ease-in-out;
+}
+
+.sv-btn:hover{
+    background-color: rgb(255, 200, 97);
+
+    cursor: pointer;
+}
+
+.tmp-box {
+    position: absolute;
+    top: -100%;
+    /* right: 5%; */
+
+    width: 97%;
+    height: 93%;
+
+    border: 2px solid pink;
+    background-color: white;
+
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 4px 5px rgb(185, 181, 181);
+    opacity: 1;
+}
+
+.tmp-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sv-final-btn {
+    position: absolute;
+    bottom: 10%;
+    /* right: 5%; */
+
+    width: 35%;
+    height: 18%;
+
+    border: 3px solid black;
+    color: white;
+    font-weight: bold;
+    background-color: darkolivegreen;
+    border-radius: 10;
+}
+
+.sv-final-btn:hover {
+    cursor: pointer;
+}
+
+.inp-num {
+    border: 2px solid black;
+    width: 20%;
+    height: 22%;
+    border-radius: 5;
+
+    position: absolute;
+    top: 37%;
+    left: 13%;
+}
+
+.circle {
+    position: absolute;
+    top: 35%;
+    border: 2px solid black;
+    background-color: lightblue;
+    border-radius: 100%;
+
+    width: 13%;
+    height: 25%;
+    transition: all 0.2s ease-in-out;
+}
+
+.circle:hover {
+    background-color: rgb(50, 164, 202);
+    cursor: pointer;
+}
+
+.sv-text {
+    border: 2px solid black;
+    position: absolute;
+    top: 10%;
+
+    font-size: 20;
+    font-weight: bold;
+}
