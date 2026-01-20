@@ -15,6 +15,7 @@
 
     display: flex;
     align-items: center;
+    background-color: rgb(210, 210, 210);
 
     box-shadow: 0 4px 5px rgb(185, 181, 181);
 }
